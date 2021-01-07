@@ -1,3 +1,5 @@
+import sbt.Developer
+
 ThisBuild / organization := "ru.tinkoff"
 ThisBuild / scalaVersion := "2.12.12"
 
@@ -18,10 +20,16 @@ ThisBuild / scmInfo := Some(
 )
 ThisBuild / developers := List(
   Developer(
-    id    = "red-bashmak",
-    name  = "Vyacheslav Kalyokin",
-    email = "v.kalyokin@tinkoff.ru",
-    url   = url("https://github.com/red-bashmak")
+    id    = "ehmkah",
+    name  = "Michael Krausse",
+    email = "Michael.M.Krausse-extern@deutschebahn.com",
+    url   = url("https://github.com/ehmkah")
+  ),
+  Developer(
+  id    = "yelouarti",
+  name  = "Younes El Ouarti",
+  email = "Younes.Elouarti-extern@deutschebahn.com",
+  url   = url("https://github.com/yelouarti")
   )
 )
 
